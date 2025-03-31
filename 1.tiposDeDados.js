@@ -2,13 +2,25 @@
 Tipos de Dados    
 1. String -> Texto.
 2. Numbers -> Números
-3. Boolean -> Boleano  usado para diser se é true ou false (verdadeiro ou falso)
+3. Boolean -> Boleano  -> Usado para diser se é true ou false (verdadeiro ou falso)
 4. Object -> Objeto 
 5. Null & Undefined  
+6. Functions / Funções -> Trecho de código que é executado SOMENTE quando solicitado.
 
 Estrutura de Dados
 
 1. Array
+
+Controlador de fluxo
+
+1. If (SE)
+   Else (SE NÃO)
+
+Operadores de Comparação
+
+> Maior que
+< Menor que
+== Igual que
 
 */
                 //String
@@ -105,3 +117,42 @@ Estrutura de Dados
     ]
 
     console.log(users[1].age) //Biancaaa que está na posição 1 e ira mostrar somete a idade
+
+
+                //iF e Else
+
+//Exemplo usando > e <
+
+const notaDoAluno = 7
+const notaDeCorte = 5
+
+if(notaDoAluno > notaDeCorte) {
+console.log("Parabéns, Você foi Aprovado") // Executa se o if for Verdadeiro
+}
+else{
+    console.log("Você foi Reprovado") // Executa se o if for falso
+}
+
+//Exemplo usando o ==
+
+const senhaDoUsuario = 123456
+const senhaDigitada = 123456
+
+if (senhaDoUsuario == senhaDigitada) {
+    console.log("Seja bem vindo, você esta logado(a)")
+}
+else {
+    console.log("Senha incorreta")
+}
+
+                // Functions / Funções 
+
+const variavel = "Abacatinho"
+
+console.log(variavel)
+
+function nomeNaTela () {
+    console.log("Charlles")
+}
+
+nomeNaTela () // Dessa forma consigo chamar a minha função 
